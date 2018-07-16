@@ -41,5 +41,8 @@ def play(board)
   while play_count >= 0
     turn(board)
     play_count -= 1
+    puts play_count
   end
+  
+  puts "Game Over"
 end
